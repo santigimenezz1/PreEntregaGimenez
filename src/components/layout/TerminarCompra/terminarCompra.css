@@ -1,0 +1,47 @@
+
+.container-terminarCompra{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+ border-radius: 7px;
+ margin: 15px 70px;
+ box-shadow: 1px 2px 2px rgb(187, 182, 182) ;
+ background-color: white;
+}
+.terminarCompra-image{
+    width: 50px;
+}
+.container-tituloImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container-contador{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+
+}
+h1{
+    font-size: 18px;
+}
+h2{
+    color:#4675b9 ;
+    font-size: 20px;
+}
+.icon-trash{
+    height: 100%;
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+}
+.span{
+    border: 1px solid red;
+    width: 10px;
+    height: 70px;
+    background-color: orangered;
+    border-radius: 10px;
+}

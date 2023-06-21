@@ -1,0 +1,54 @@
+.tarjeta-container{
+    width: 240px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+}
+.tarjeta-container:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 10px rgb(187, 182, 182) ;
+}
+.tarjeta-container-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tarjeta-image{
+    width: 120px;
+}
+.tarjeta-container-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(223, 217, 217);
+    padding: 15px;
+    
+}
+.tarjeta-container-info-envio{
+    display: flex;
+    margin-left: 10px;
+}
+.tarjeta-price{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+h2{
+    font-size: 1.7em;
+    font-weight: 400;
+}
+h3{
+    font-size: 1rem;
+    color: rgb(110, 103, 103);
+    padding-left: 7px;
+    font-weight: 200;
+}
+h4{
+    color: rgb(59, 185, 59);
+}

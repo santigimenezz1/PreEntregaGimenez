@@ -1,0 +1,21 @@
+.container-contadorBoton{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 8px;
+    color: rgb(97, 93, 93);
+    align-items: center;
+
+}
+.botones{
+    border: none;
+    font-size: 20px;
+    color: rgb(18, 82, 82);
+    cursor: pointer;
+    background-color: #ebebeb;    
+}
+.container-agregandoProductoCarrito{
+    display: flex;
+    gap: 20px;
+}

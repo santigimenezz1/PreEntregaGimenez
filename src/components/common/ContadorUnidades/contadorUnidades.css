@@ -1,0 +1,39 @@
+
+.botones{
+    border: none;
+    font-size: 20px;
+    color: rgb(18, 82, 82);
+    cursor: pointer;
+    background-color: white;    
+}
+
+.container-agregandoProducto-Carrito{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: relative;
+ top: 8px;
+ 
+}
+.titulo{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.limite{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-weight: 200;
+}
+
+.pantalla{
+    color: grey;
+    font-weight: 400;
+}

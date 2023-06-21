@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: #ebebeb;
+}
+.Container-agregarProducto{
+  display: flex;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+.flex{
+  display: flex;
+}
+.probando-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 50px;
+  gap: 1px;
+  gap: 25px;
+  padding: 80px;
+  place-content: center;
+
+}
+
